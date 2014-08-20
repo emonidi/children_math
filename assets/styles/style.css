@@ -1,0 +1,36 @@
+.container{
+		
+		margin: 0 auto;
+}
+
+.container #square-holder{
+	width: 900px;
+	margin: 0 auto;
+}
+
+.container #square-holder .square{
+	width: 88px;
+	height: 88px;
+	border: solid 1px;
+	float: left;
+	text-align: center;
+}
+
+.container #square-holder .square span{
+	font-size: 40px;
+	line-height: 98px;
+}
+
+@media screen and (max-width: 640px){
+	.container #square-holder{
+		width: 300px;
+	}
+}
+
+
+@media screen and (min-width: 641px) and (max-width: 959px){
+	.container #square-holder{
+		width: 600px;
+	}
+}
+

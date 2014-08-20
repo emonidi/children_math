@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Kids Math</title>
+		<link rel="stylesheet" type="text/css" href='assets/styles/style.css'/>
+	</head>
+
+	<body>
+		<div class='container'>
+			<div id='square-holder'>
+
+			</div>
+		</div>
+
+		<script type="text/javascript" src="assets/js/square.js"></script>
+		<script type="text/javascript" src="assets/js/board_manager.js"></script>
+		<script type="text/javascript">
+			var bManager = new BoardManager();
+			bManager.createBoard(144,"square-holder");
+		</script>	
+	</body>
+</html>
