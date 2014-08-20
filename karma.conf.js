@@ -19,6 +19,7 @@ module.exports = function(config) {
         'assets/tests/jasmine-html.js',
         'assets/tests/jasmine/jasmine-matchers.js',
         'assets/tests/boardManagerTests.js',
+        'assets/tests/squareTest.js'
     ],
 
 

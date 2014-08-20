@@ -5,11 +5,13 @@ var Square = function(squareNumber){
 		
 	this.highlite = function(color){
 		this.html.style.backgroundColor = color;
+		this.html.style.transform = "rotateY(360deg)";
 		this.highlited = true;
 	}
 
 	this.unhighlite = function(){
 		this.html.style.backgroundColor = "#fff";
+		this.html.style.transform = "rotate(0deg)";
 		this.highlited = false;
 	}
 
@@ -25,7 +27,7 @@ var Square = function(squareNumber){
 		span.innerText = this.squareNumber;
 		//append the span into the div;
 		div.appendChild(span);
-
+		div.style.transition = ".75s";
 		this.html = div;
 		
 		return div;
